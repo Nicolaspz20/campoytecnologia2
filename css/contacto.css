@@ -1,0 +1,129 @@
+.conteiner-contacto{
+    padding-top: 20px;
+    width: 65%;
+    height: auto;
+    
+    margin-left:10% ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 241, 241);
+display: block;
+box-shadow: 5px 7px 9px 10px black;
+}
+.img-fluidcont{
+    width: 100%;
+}
+
+.textocontacto{
+    font-size: 27px;
+    color: #000;
+}
+@media(max-width:700px){
+    .textocontacto{
+    font-size: 20px;
+    }
+}
+
+@media(max-width:700px){
+    .conteiner-contacto{
+    width: 95%;
+   margin-left: 3%;
+   box-shadow: none;
+    }
+}
+.contenedorform{
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    background-color:white;
+}
+
+@media(max-width:700px){
+    .contenedorform{
+    width: 95%;
+   margin-left: 3%;
+   display: block;
+   height: auto;
+    }
+}
+
+.conteineranunciogif{
+    width: 100%;
+    height: auto;
+
+
+    
+}
+@media(max-width:700px){
+    .conteineranunciogif {
+    width: 95%;
+   height: 20%;
+  
+    }
+}
+
+@media(max-width:700px){
+    .img-fluidgif{
+   width: 80% !important;
+   padding-top: none;
+   margin-left: none;
+    }
+}
+.img-fluidgif{
+margin-left: 10%;
+    padding-top: 20px;
+    width: 50%;
+    height: 90%;
+}
+.form{
+    width: 700px;
+    height: 55%;
+    background:rgb(0, 113, 165);
+    padding: 10px;
+margin-left: 10%;
+margin-top: 40px;
+border-radius: 4px;
+font-family:'calibri';
+color: white;
+box-shadow: 7px 13px 37px #000;
+}
+.Contactos h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controles{
+    width: 100%;
+ background-color: #000;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #200500;
+font-family: 'calibri';
+font-size: 18px;
+color: white;
+}
+.boton{
+width: 100%;
+background:rgb(0, 159, 187);
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
+
+@media(max-width:700px){
+    .form{
+        width: 300px;
+        height: 55%;
+        background:rgb(0, 113, 165);
+        padding: 10px;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family:'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    }
+}

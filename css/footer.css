@@ -1,0 +1,210 @@
+footer{
+    background-color: #102735;
+    padding: 30px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+   
+  }
+  
+  .fin{
+    position: relative;
+    color:#00a6cf;
+    padding-top: 7% !important;
+    bottom: 25px;
+    font-size: 20px;
+}
+  .about-us{
+    margin-top:20px;
+  }
+  
+  .about-us{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .about-us p{
+    font-size: 15px;
+    color: white;
+  }
+  
+ 
+  
+  .social-icons a{
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  @media(min-width:360px),(max-width:700px){
+    .social-icons a{
+      color: white;
+      font-size: 20px;
+      display: block;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    }
+
+  
+  .social-icons a.facebook:hover{
+    color: rgb(59, 89, 152);
+  }
+  
+  .social-icons a.twitter:hover{
+    color: rgb(0, 172, 238);
+  }
+  
+  .social-icons a.instagram:hover{
+    color: rgb(193, 53, 132);
+  }
+  
+  .social-icons a.whatsapp:hover{
+    color: rgb(0, 187, 45);
+  }
+  .footer-inf p{
+    margin: 27px 0 20px;
+  }
+  p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    display: block;
+}
+
+
+  .campytec{
+    width: 200px;
+    filter: drop-shadow(10px 8px 6px rgba(255, 251, 251, 0.633) );
+  }
+  
+
+  .msjbienvenida{
+    position:absolute;
+    top: 50%;
+    left: 50% ;
+  
+}
+h1{
+    color: white;
+    font-size: 15px;
+ font-size: 50px;
+ 
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgba(92, 181, 245, 0.8);
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.datos form{
+  width: 300px;
+  max-width: 100%;
+  position: relative;   
+}
+.datos form input:first-child{
+ display: inline-block;
+ width: 100%;
+ padding: 14px 130px 14px 15px;
+border: 2px solid #00a6cf;
+  border-radius:30px ;
+  outline: none; 
+}
+.datos form input:last-child{
+       position: absolute;
+       display: inline-block;
+       outline: none;
+       border: none;
+       border-radius:30px;
+       padding: 10px 30px;
+       background-color: #00a6cfd3;
+       color: white;
+       box-shadow: 0px 0px 5px #00eeff, 0px 0px 15px rgb(83, 83, 83);
+      top: 6px;
+      right: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer{
+    height: 50%;
+    position: absolute;
+    display: block;
+    max-width: 500px;
+  
+  }
+  }
+  @media only screen and (max-width: 600px) {
+    .msjbienvenida{
+ top: 110px;
+      position: relative;
+      transform: translateY(-40%);
+      left: 0px;
+    }
+    }
+    @media only screen and (max-width: 600px){
+      .datos form input:first-child{
+        display: inline-block;
+        width:250px;
+        height: 50px;
+        padding: 10px 10px 14px 5px;
+       border: 2px solid #00a6cf;
+         border-radius:30px ;
+         outline: none;
+         right: 10PX; 
+       }
+
+    }
+    @media only screen and (max-width: 600px) {
+      .datos form input:last-child{
+        position: absolute;
+        display: inline-block;
+       width: 100PX;
+        border-radius:30px;
+        padding: 10px 30px;
+        background-color: #00a6cfd3;
+        color: white;
+        box-shadow: 0px 0px 5px #00eeff, 0px 0px 15px rgb(83, 83, 83);
+       top: 6px;
+       right: 50PX;
+      }
+}
+     
+@media only screen and (max-width: 600px) {
+   h1{
+    font-size: 26px;
+    right: 10px;
+   
+  }
+}
+  
+  @media only screen and (max-width: 600px) {
+    .social-icons a {
+      font-size: 16px;
+      margin: 0 8px;
+    }
+  
+    .about-us h3 {
+      font-size: 16px;
+    }
+  
+
+  }
+.campytec { animation-name: campoytec }
+@keyframes campytec{
+    from {
+        transform: translateX(100%);
+        filter: blur(20px);
+        opacity: 0;
+    }
+  }
+  
